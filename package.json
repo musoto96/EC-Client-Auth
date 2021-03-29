@@ -1,0 +1,23 @@
+{
+  "name": "ec-client-auth",
+  "version": "1.0.0",
+  "description": "Control de Acceso para Statistical Bureau for Research",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Moisés Soto",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "ec-key": "^0.0.4",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {}
+}
