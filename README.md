@@ -1,9 +1,4 @@
 # EC-Client-Auth
-Elliptic Curve signature based client authentication implementation demo.
+Elliptic Curve signature based client authentication.
 
-### Nodejs backend with React Frontend
-Libraries:
- - express
- - ec-key
- - axios
- - etc
+Nodejs backend with React Frontend
